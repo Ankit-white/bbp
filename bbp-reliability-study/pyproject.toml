@@ -1,0 +1,11 @@
+[project]
+name = "bbp-reliability-study"
+version = "0.1.0"
+description = "Reference patterns for reliable AI inference in Python: streaming, error handling, reproducibility"
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+dev = ["pytest>=7", "hypothesis>=6"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
